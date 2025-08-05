@@ -13,7 +13,8 @@ It uses:
 
 No API keys. No cloud. 100% offline and free.
 
-🚀 Features
+🚀 Features:
+
 🔎 Ask questions like "How’s the service?" or "Is the pizza spicy?"
 
 🧠 LLM finds relevant reviews and generates smart answers
