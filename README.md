@@ -22,3 +22,42 @@ No API keys. No cloud. 100% offline and free.
 💾 All runs locally – perfect for learning and privacy
 
 🛠️ Easily customizable for other datasets/domains
+
+.
+├── main.py                      # Chat interface and LangChain logic
+├── vector.py                    # Handles embedding + vector search
+├── realistic_restaurant_reviews.csv   # Dataset of customer reviews
+├── requirements.txt             # Python dependencies
+├── README.md                    # This file
+
+
+🛠 Setup Instructions
+1. Clone the repo
+git clone https://github.com/ShivakumarJalihal/Promptza.git
+cd Promptza
+
+3. Create and activate a virtual environment
+python -m venv venv
+venv\Scripts\activate     # On Windows
+# source venv/bin/activate  # On Mac/Linux
+
+3. Install dependencies
+pip install -r requirements.txt
+
+5. Run the assistant
+python main.py
+Make sure Ollama is installed and the model (e.g., llama3) is pulled.
+
+🧠 Sample Questions to Ask
+- "What do people say about the staff?"
+
+- "Are the prices reasonable?"
+
+- "How’s the taste of the cheese pizza?"
+
+📌 To-Do / Improvements
+ - Add a basic GUI using Tkinter or Streamlit
+
+ - Add logging or analytics
+
+ - Support multiple datasets
